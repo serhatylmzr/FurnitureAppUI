@@ -11,14 +11,18 @@ struct FurnitureModel : Identifiable{
     var id : String = UUID().uuidString
     var title : String
     var image : String
+    var description: String
     var subtitle: String
     var price : String
 }
 
 var furnitures : [FurnitureModel] = [
-    FurnitureModel(title: "Royal Palm Sofa", image: "Furniture1", subtitle: "Erogomonical for human body curve CoreData: warning:  View context accessed for persistent container FurnitureAppUI with no stores loaded Erogomonical for human body curve", price: "$299"),
- FurnitureModel(title: "Modern Sofa", image: "Furniture2", subtitle: "Extra comfy chair with a palm rest Erogomonical for human body curve CoreData: warning:  View context accessed for persistent container FurnitureAppUI with no stores loaded Erogomonical for human body ", price: "199"),
- FurnitureModel(title: "Leather Sofa", image: "Furniture3", subtitle: "Erogomonical for human body curve Erogomonical for human body curve CoreData: warning:  View context accessed for persistent container FurnitureAppUI with no stores loaded Erogomonical", price: "$399"),
- FurnitureModel(title: "Luxary Sofa", image: "Furniture1", subtitle: "Extra comfy chair with a palm rest Erogomonical for human body curve CoreData: warning:  View context accessed for persistent container FurnitureAppUI with no stores loaded Erogomonical for", price: "$499"),
- FurnitureModel(title: "Seto Sofa", image: "Furniture2", subtitle: "Erogomonical for human body curve Erogomonical for human body curve CoreData: warning:  View context accessed for persistent container FurnitureAppUI with ", price: "$1299")
+    FurnitureModel(title: "Royal Palm Sofa", image: "Furniture1",description: "Erogomonical for human body, Lorem Ipsum has been the industry's , when an unknown printer took a galley of type and scrambled it to make a type specimen book.", subtitle: "Erogomonical for human body", price: "$299"),
+    FurnitureModel(title: "Modern Sofa", image: "Furniture2",description: "Extra comfy chair with a palm rest Erogomonical for human body survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.", subtitle: "Extra comfy chair with a palm rest Erogomonical for human body", price: "$199"),
+    FurnitureModel(title: "Leather Sofa", image: "Furniture3",description: "Erogomonical for human body curve Erogomonical for human body curve CoreData: warning:  View context accessed for persistent container FurnitureAppUI with no stores loaded Erogomonical", subtitle: "Extra comfy chair with a palm rest Erogomonical for human body", price: "$399"),
+    FurnitureModel(title: "Luxary Sofa", image: "Furniture4",description: "Extra comfy chair with a palm rest Erogomonical for human body curve Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.", subtitle: "Extra comfy chair with a palm rest Erogomonical for human body", price: "$499"),
+    FurnitureModel(title: "Deluxe Sofa", image: "Furniture5",description: "Erogomonical for human body curve Erogomonical for human body curve Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.", subtitle: "Extra comfy chair with a palm rest Erogomonical for human body", price: "$556"),
+    
+    FurnitureModel(title: "Golden Sofa", image: "Furniture6",description: "Extra comfy chair with a palm rest Erogomonical for human body curve Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.", subtitle: "Extra comfy chair with a palm rest Erogomonical for human body", price: "$499"),
+    FurnitureModel(title: "Seto Sofa", image: "Furniture7",description: "Erogomonical for human body curve Erogomonical for human body curve Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.", subtitle: "Extra comfy chair with a palm rest Erogomonical for human body", price: "$769")
 ]

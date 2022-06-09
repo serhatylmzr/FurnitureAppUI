@@ -89,7 +89,7 @@ struct DetailView: View {
                                     Color("Black").opacity(0.2), lineWidth: 1)
                             }.scaleEffect(0.8)
                     }
-                    Text(furniture.subtitle)
+                    Text(furniture.description)
                         .font(.callout)
                         .foregroundColor(.gray)
                         .multilineTextAlignment(.leading)
